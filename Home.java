@@ -24,9 +24,9 @@ public static void main(String[] args){
 class Admin extends AdminMenu{
 	public void Admin1(){
 		Scanner scan = new Scanner(System.in);
-		String AdminUserName = "3409";
-		String AdminPassWord = "Afru@";
-		System.out.print("Enter the Admin Id: ");
+		String AdminUserName = "Suhail";
+		String AdminPassWord = "Suhail123";
+		System.out.print("Enter the Admin UserName: ");
 		String AdminId = scan.nextLine();
 		System.out.print("Enter the Admin Password: ");
 		String AdminPass = scan.nextLine();
