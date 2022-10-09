@@ -110,13 +110,17 @@ public class Railway{
 	}
 	public void availableTickets() {
 		System.out.println("The Number of tickets available are : ");
-		System.out.println("Welcome to Booked Tickets");
+		System.out.println("Welcome to Available Tickets");
+		System.out.println("10 confirmed Tickets");
+		System.out.println("Lower berth - 2");
+		System.out.println("Middle berth - 2");
+		System.out.println("upper berth - 2");
+		System.out.println("RAC - 2");
+		System.out.println("Waiting List - 2");
 		System.out.println("Ticket No\tName\tAge\tGender\tBerth\tPNRID");
-		for(j=0;j<Passenger_Name.length;j++){
-			if(Passenger_Age[j]!=0){
-				
-				System.out.println(Ticket_No[j]+"\t"+Passenger_Name[j]+"\t"+Passenger_Age[j]+"\t"+Gender[j]+ "\t"+Berth[j]+"\t"+pnrID);
-			}
+		for(i=0;i<Passenger_Name.length;i++) {
+			System.out.println(Ticket_No[i]+"\t"+Passenger_Name[i]+"\t"+Passenger_Age[i]+"\t"+Gender[i]+ "\t"+Berth[i]+"\t"+pnrID);
+
 		}
 	}
 }
