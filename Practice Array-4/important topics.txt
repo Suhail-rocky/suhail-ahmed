@@ -1,0 +1,16 @@
+core java
+full stack java 
+front end - html css, js
+back end  - java
+dbms - SQL
+struct framework,
+oops*** - expect
+Lambda
+interface
+abstract
+inheritance
+static 
+final
+method
+String - fulldepth
+for each()
