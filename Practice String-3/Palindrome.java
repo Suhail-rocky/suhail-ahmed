@@ -12,31 +12,49 @@ public class Palindrome
 		{
 			s2+=c[i];
 		}
-		System.out.println(s2);
+		//System.out.println(s2);
 		boolean ans = isPalindrome(s1,s2);
-		if(ans)
-			System.out.println("True");
-				//System.out.println("false");
+		//System.out.println(ans);
+		if(ans == true)
+		{
+			System.out.println("It is a palindrome");
+		}
+		else
+		{
+			System.out.println("It is  not a palindrome");
+		}
 	}
 	static boolean isPalindrome(String s1,String s2)
 	{
-		int count=0;
+		int count=0,flag=1;
+		int str1=s1.length();
+		int str2=s2.length();
 		char c1[]=s1.toCharArray();
 		char c2[]=s2.toCharArray();
-		for(int i=0;i<c1.length;i++)
+		if(str1 == str2)
 		{
-			for(int j=0;j<c2.length;j++)
+			
+			for(int i=0;i<str1;i++)
 			{
-				if(c1[i] == c2[j])
+				if(c1[i] != c2[i])
 				{
-					count++;
+					flag=0;
 					break;
 				}
 			}
 		}
-		int ans = c1.length;
-		if(ans == count)
+		else
+		{
+			flag=0;
+		}
+		if(flag == 1)
+		{
 			return true;
-				return false;
+		}
+		else
+		{
+			return false;
+		}
+		
 	}
 }
