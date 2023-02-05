@@ -1,0 +1,30 @@
+input
+{
+	width:50%;
+	height:40px;
+	color:red;
+	font-size:18px;
+}
+h2
+{
+	color:red;
+}
+p
+{
+	color:blue;
+	font-size:18px;
+}
+button
+{
+	width:50%;
+	height:40px;
+	font-size:18px;
+	background-color:blue;
+	color:white; 
+}
+.myclass1
+{
+	color:red;
+	background-color:blue;
+	width:200px;
+}

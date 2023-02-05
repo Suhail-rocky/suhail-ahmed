@@ -1,0 +1,38 @@
+<html>
+<head>
+	<script src="Hello.js"></script>
+	<style>
+		input
+		{
+			width:40%;
+			height:40px;
+		}
+		h2,p
+		{
+			color:red;
+		}
+		button
+		{
+			background-color:blue;
+			color:white;
+		}
+	</style>
+</head>
+<body>
+	<h2> Select By Id</h2>
+	
+	<input id="from" placeholder="Enter Data"><br><br>
+	<button onclick="check()"> submit</button>
+	<p id="to">			</p>
+	
+	<script>
+		funcion check()
+		{
+			box=document.getElementById("from").value;
+			document.getElementById("to").innerHTML=box;
+		}
+	
+	</script>
+</body>	
+</html>
+		

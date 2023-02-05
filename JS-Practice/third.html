@@ -1,0 +1,36 @@
+<html>
+<style>
+    span{color:blue;}
+</style>    
+<body>
+            <h2 id="h2"></h2>
+			
+ <span>Start value</span>:<input id="start"> <br>
+ <span>End   value</span>:<input id="end">   <br>
+            <button onclick="check()">click</button>
+			
+			<script>
+			        					
+			       function  check()
+				   {
+					 start=document.getElementById("start").value;
+					 end  =document.getElementById("end").value;
+					
+					// Change Datatype
+					start=parseInt(start);
+					end  =parseInt(end);
+					temp=start;
+				    while(temp<=end)
+					{
+					 console.log(temp);
+					 temp++;
+					}
+				  }
+			
+			</script>
+			
+		
+
+</body>
+
+</html>

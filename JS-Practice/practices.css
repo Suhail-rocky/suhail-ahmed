@@ -1,0 +1,39 @@
+*
+{
+	box-sizing:border-box;
+}
+input
+{
+	width:30%;
+	height:40px;
+	color:red;
+	font-size:18px;
+	background-color:#9AF9B0;
+}
+h2
+{
+	color:#00056E;
+	font-size:35px;
+}
+div
+{
+	width:30%;
+	height:200px;
+	border:1px solid blue;
+	background-color:#F9F29A;
+}
+p
+{	
+	color:blue;
+	font-size:22px;
+	font-weight:bold;
+}
+button
+{
+	width:30%;
+	height:40px;
+	font-size:24px;
+	background-color:blue;
+	color:white;
+	
+}

@@ -1,0 +1,42 @@
+ <html>
+ <head>
+	<link rel="stylesheet" href="practice.css">
+	</head>
+<body>
+	<h2>JavaScript Date</h2>
+	
+	<p id="p1">	</p>
+	
+	<button onclick="start()">start</button>
+	<button onclick="stop()">stop</button>
+	
+	<script>
+		function changeColor()
+		{
+		date = new Date();//current date
+		hour = date.getHours();
+		minute=date.getMinutes();
+		second=date.getSeconds();
+		timing=date.toLocaleTimeString();
+		x=document.getElementById("p1");
+		x.innerHTML=timing;  
+		if(second%2 == 0)
+		{
+			x.style.color="red";
+		}
+		else
+		{
+			x.style.color="blue";
+		}
+		}
+		function start()
+		{
+		clear=setInterval(changeColor,1000);//1000milliseconds
+		}
+		function stop()
+		{
+			clearInterval(clear);
+		}
+	</script>
+	</body>
+	</html>
