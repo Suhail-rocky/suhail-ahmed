@@ -1,0 +1,38 @@
+.suhail
+{
+    background-color:blue;
+    color:white;
+    line-height: 25px;
+    height: 90px;
+    width: 200px;
+    padding: 40px;
+    margin:auto;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-shadow: 5px 8px 10px blue;
+    background-image:url("star.svg");
+    text-align: center;
+    background-repeat:no-repeat;
+    border:1px solid red;
+    overflow:scroll;
+
+
+}
+.developer
+{
+    font-size:16px;
+    font-style: italic;
+    font-weight: 1000;
+    color:white;
+    position:sticky;
+    top:40;
+    padding-bottom: 10px;
+    background-color: yellow;
+}
+.suhail:hover
+{
+    background-color: red;
+    cursor: pointer;
+    font-size: 20px;
+    opacity:0.4;
+}
